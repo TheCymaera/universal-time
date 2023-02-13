@@ -1,8 +1,5 @@
 {
 	"compilerOptions": {
-		"rootDir": "src",
-		"outDir": "dst",
-		
 		"module": "ESNext",
 		"target": "ESNext",
 
@@ -19,6 +16,8 @@
 		"preserveConstEnums": true,
 
 		"skipDefaultLibCheck": true,
+
+		"noEmit": true,
 
 		"lib": ["ES2020", "DOM", "DOM.Iterable"],
 
