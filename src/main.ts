@@ -6,7 +6,7 @@ import {} from "helion/OutlinedTextField.js";
 import {} from "helion/FilledButton.js";
 import {} from "helion/CircleButton.js";
 import "./main.css";
-import { fa5_brands_github, fa5_solid_home } from "fontawesome-svgs";
+import { fa5_brands_github, fa5_solid_copy, fa5_solid_home } from "fontawesome-svgs";
 
 document.body.innerHTML = /*html*/ `
 <div class="App helion-fill-parent">
@@ -26,7 +26,7 @@ document.body.innerHTML = /*html*/ `
 	<p>Share Time</p>
 	<div class=inputContainer>
 		<input id=urlShare type="url" class="helion-outlined-text-field">
-		<button id=urlShare_copy class="helion-filled-button">Copy</button>
+		<button id=urlShare_copy class="helion-filled-button" title="Copy">${fa5_solid_copy}</button>
 	</div>
 
 	<div class="App_ActionButtons">

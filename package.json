@@ -7,13 +7,13 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "typescript": "^4.5.4",
-    "vite": "^2.9.5",
+    "typescript": "^4.9.5",
+    "vite": "^4.1.1",
     "vite-plugin-html": "^3.2.0"
   },
   "dependencies": {
     "fontawesome-svgs": "^1.0.0",
-    "helion": "^1.0.6",
+    "helion": "^1.0.8",
     "open-utilities": "^1.0.3"
   }
 }
