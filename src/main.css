@@ -39,8 +39,3 @@ input {
 	display: flex;
 	flex-direction: column;
 }
-
-svg {
-	fill: currentColor;
-	height: 1em;
-}

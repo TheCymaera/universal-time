@@ -11,7 +11,7 @@
     "vite-plugin-html": "^3.2.0"
   },
   "dependencies": {
-    "fontawesome-svgs": "^1.0.0",
+    "fontawesome-svgs": "^1.0.2",
     "helion": "^1.0.8",
     "open-utilities": "^1.0.3"
   }
